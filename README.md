@@ -106,6 +106,29 @@ Apply migrations
 python manage.py migrate
 ```
 
+## Load Product Data
+
+After running the migrations, import the product dataset using the following command:
+
+```bash
+python manage.py import_products
+```
+
+This command loads the products from `products_data.csv` into the SQLite database.
+
+Verify the import:
+
+```bash
+python manage.py shell
+```
+
+```python
+from products.models import Product
+print(Product.objects.count())
+```
+
+You should see the number of imported products.
+
 Run the development server
 
 ```bash
