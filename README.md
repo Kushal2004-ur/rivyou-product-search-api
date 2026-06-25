@@ -1,6 +1,6 @@
 # Rivyou Product Search API
 
-## Internship Assignment – Intelligent Product Search API
+##  Intelligent Product Search API
 
 A Django REST Framework-based Product Search API that provides secure JWT authentication and intelligent product search functionality. This project allows users to register, log in, retrieve products, and search products using keyword matching, category filtering, and relevance scoring.
 
